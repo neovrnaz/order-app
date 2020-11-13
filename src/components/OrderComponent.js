@@ -11,7 +11,7 @@ class OrderContainer extends Component {
   render() {
     return(
         <div>
-          <h3><OrderComponent order="Order"/></h3>
+          <h3><OrderComponent order={Order}/></h3>
         </div>
     );
   }
